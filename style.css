@@ -8,9 +8,6 @@ body {
     margin:auto;
     width:500px;
 }
-div.embed {
-    margin:32px 0;
-}
 #hello {
     padding:32px;
     overflow:none;
