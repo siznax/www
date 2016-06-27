@@ -6,11 +6,15 @@ body {
     margin:auto;
     width:500px;
     font-family:BaskervilleFS, Baskerville, Palatino, Cambria, Georgia, serif;
-    font-size:1.2em;
+    background:whitesmoke;
+    background:url(bg.jpg);
 }
 #hello {
     padding:32px;
     overflow:none;
+    background:white;
+    border-bottom-right-radius:0.5em;
+    border-bottom-left-radius:0.5em;
 }
 #hello img {
     border-radius:50%;
@@ -20,6 +24,11 @@ body {
 }
 #source {
     text-align:center;
-    padding:1em;
-    opacity:0.3;
+    opacity:0.1;
+}
+#greeting{
+    font-size:1.4em;
+}
+#links {
+    font-size:1.2em;
 }
