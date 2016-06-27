@@ -10,6 +10,7 @@ body {
     background:url(bg.jpg);
 }
 #hello {
+    margin-top:2em;
     padding:32px;
     overflow:none;
     background:white;
@@ -27,8 +28,8 @@ body {
     opacity:0.1;
 }
 #greeting{
-    font-size:1.4em;
+    font-size:1.8em;
 }
 #links {
-    font-size:1.2em;
+    font-size:1.5em;
 }
