@@ -9,6 +9,9 @@ body {
     background:whitesmoke;
     background:url(bg.jpg);
 }
+a {
+    text-decoration:none;
+}
 #hello {
     margin-top:2em;
     padding:32px;
@@ -25,7 +28,9 @@ body {
 }
 #source {
     text-align:center;
-    opacity:0.1;
+}
+#source a {
+    font-size:2em;
 }
 #greeting{
     font-size:1.8em;
