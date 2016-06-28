@@ -7,7 +7,7 @@ body {
     width:600px;
     font-family:BaskervilleFS, Baskerville, Palatino, Cambria, Georgia, serif;
     background:whitesmoke;
-    background:url(bg.jpg);
+    background:url(bg.png);
 }
 a {
     text-decoration:none;
