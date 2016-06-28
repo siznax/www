@@ -12,6 +12,9 @@ body {
 a {
     text-decoration:none;
 }
+#blerg {
+    font-family:'UnifrakturCook', cursive;
+}
 #hello {
     margin-top:2em;
     padding:32px;
