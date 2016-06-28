@@ -19,6 +19,15 @@ a {
     background:white;
     border-bottom-right-radius:0.5em;
     border-bottom-left-radius:0.5em;
+    border-top:   2px solid tan;
+    border-left:  2px solid tan;
+    border-right: 1px solid silver;
+    border-bottom:1px solid silver;
+    background:linen;
+    background:-webkit-linear-gradient(linen, white);
+    background:-o-linear-gradient(     linen, white);
+    background:-moz-linear-gradient(   linen, white);
+    background:linear-gradient(        linen, white);
 }
 #hello img {
     border-radius:50%;
