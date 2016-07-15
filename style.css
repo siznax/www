@@ -7,7 +7,7 @@ body {
     width:600px;
     font-family:BaskervilleFS, Baskerville, Palatino, Cambria, Georgia, serif;
     background:whitesmoke;
-    background:url(bg.png);
+    background:url(bg.png); /* Egyptian tomb tessellation (wallpaper group p4) */
 }
 a {
     text-decoration:none;
