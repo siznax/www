@@ -25,8 +25,8 @@ div#frame {
     border-bottom-left-radius:0.5em;
     border-top:   2px solid tan;
     border-left:  2px solid tan;
-    border-right: 1px solid silver;
-    border-bottom:1px solid silver;
+    border-right: 2px solid khaki;
+    border-bottom:2px solid khaki;
     background:linen;
     background:-webkit-linear-gradient(linen, white);
     background:-o-linear-gradient(     linen, white);
@@ -35,25 +35,33 @@ div#frame {
 }
 div#avatar {
     float:left;
-}
-div#avatar img {
+    width:96px;
+    height:96px;
+    background:url('avatar.png');
     border-radius:50%;
+}
+div#avatar:hover {
+    background:url('1f479-japanese-ogre.png');
+    background-size:96px 96px;
+    border-radius:0;
 }
 div#greeting{
     width:420px;
     float:right;
-    font-size:1.8em;
+    font-size:2em;
+    background:url('1f479-japanese-ogre.png');  /* preload */
+    background-size:0;
 }
 p#links {
-    margin-top:16px;
+    margin-top:32px;
     text-align:center;
-    font-size:1.4em;
-    line-height:1.6em;
+    font-size:1.6em;
+    line-height:1.8em;
 }
 p#source {
-    margin-top:48px;
+    margin-top:32px;
     text-align:center;
 }
 p#source a {
-    font-size:2em;
+    font-size:1.8em;
 }
