@@ -16,7 +16,7 @@ a#blerg {
     font-family:'UnifrakturCook', cursive;
     color:black;
 }
-#hello {
+div#frame {
     margin-top:60px;
     padding:32px;
     overflow:none;
@@ -33,21 +33,26 @@ a#blerg {
     background:-moz-linear-gradient(   linen, white);
     background:linear-gradient(        linen, white);
 }
-#hello img {
+div#avatar {
+    float:left;
+}
+div#avatar img {
     border-radius:50%;
 }
-#hello td {
-    padding:8px;
-}
-#source {
-    text-align:center;
-}
-#source a {
-    font-size:2em;
-}
-#greeting{
+div#greeting{
+    width:420px;
+    float:right;
     font-size:1.8em;
 }
-#links {
-    font-size:1.5em;
+p#links {
+    margin-top:16px;
+    text-align:center;
+    font-size:1.4em;
+}
+p#source {
+    margin-top:48px;
+    text-align:center;
+}
+p#source a {
+    font-size:2em;
 }
