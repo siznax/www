@@ -52,7 +52,8 @@ p#links {
     clear:both;
 }
 p#source {
-    margin-top:2em;
+    margin:-1.5em;
+    margin-bottom:1em;
     text-align:center;
 }
 p#source a {
