@@ -5,59 +5,28 @@ html {
 body {
     margin:auto;
     width:600px;
-    font-family:BaskervilleFS, Baskerville, Palatino, Cambria, Georgia, serif;
-    background:url(tomb-group-p4.jpg);
-    background-size:120px;
+    background:black;
+
+    background:url(background.jpg);
+    background-size:cover;
+
+    color:white;
+    color:rgb(152,104,246);
+
+    font-family: 'Lato', sans-serif;
+    font-size:1.4em;
 }
 a {
     text-decoration:none;
+    color:white;
 }
-a#blerg {
-    font-family:'UnifrakturCook', cursive;
-    color:black;
+h1 {
+    font-family:'IM Fell English', serif;
+    text-align:center;
 }
 div#frame {
     margin-top:60px;
     padding:32px;
     overflow:none;
-    background:linen;
-    border-bottom-right-radius:8px;
-    border-bottom-left-radius:8px;
-}
-div#avatar {
-    float:left;
-    width:96px;
-    height:96px;
-    background:url(avatar.jpeg);
-    background-size:96px;
-    border-radius:50%;
-}
-div#avatar:hover {
-    background:url(1f479-japanese-ogre.png);
-    background-size:96px 96px;
-    border-radius:0;
-}
-div#greeting{
-    width:420px;
-    float:right;
-    font-size:2em;
-    background:url(1f479-japanese-ogre.png);  /* preload */
-    background-size:0;
-}
-p#links {
-    margin-top:120px;
-    text-align:center;
-    font-size:1.6em;
-    line-height:1.5em;
-    clear:both;
-}
-p#source {
-    margin:-1.5em;
-    margin-bottom:1em;
-    text-align:center;
-}
-p#source a {
-    font-size:2.6em;
-    font-family:'UnifrakturCook', cursive;
-    color:black;
+    background:rgba(0,0,0,0.5);
 }
