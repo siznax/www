@@ -10,8 +10,7 @@ body {
     background:url(background.jpg);
     background-size:cover;
 
-    color:white;
-    color:rgb(152,104,246);
+    color:gray;
 
     font-family: 'Lato', sans-serif;
     font-size:1.4em;
@@ -20,12 +19,16 @@ a {
     text-decoration:none;
     color:white;
 }
-h1 {
-    font-family:'IM Fell English', serif;
+p {
     text-align:center;
 }
+div#heading {
+    font-family:'UnifrakturCook', cursive;
+    text-align:center;
+    font-size:4em;
+}
 div#frame {
-    margin-top:60px;
+    margin-top:128px;
     padding:32px;
     overflow:none;
     background:rgba(0,0,0,0.5);
