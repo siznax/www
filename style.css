@@ -27,3 +27,10 @@ a {
 p {
     text-align:center;
 }
+
+img {
+    display:block;
+    margin:auto;
+    margin-top:48px;
+    margin-bottom:48px;
+}
