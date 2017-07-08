@@ -2,34 +2,28 @@ html {
     margin:0;
     padding:0;
 }
+
 body {
     margin:auto;
+    padding:32px;
     width:600px;
-    background:black;
-
-    background:url(background.jpg);
-    background-size:cover;
-
-    color:gray;
-
-    font-family: 'Lato', sans-serif;
     font-size:1.4em;
+    background:beige;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    text-align:center;
+}
+
+h1 {
+    font-family:'UnifrakturCook', cursive;
+    font-size:3em;
+}
+
 a {
     text-decoration:none;
-    color:white;
 }
+
 p {
     text-align:center;
-}
-div#heading {
-    font-family:'UnifrakturCook', cursive;
-    text-align:center;
-    font-size:4em;
-}
-div#frame {
-    margin-top:128px;
-    padding:32px;
-    overflow:none;
-    background:rgba(0,0,0,0.5);
 }
