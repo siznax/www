@@ -31,6 +31,12 @@ p {
 img {
     display:block;
     margin:auto;
-    margin-top:48px;
-    margin-bottom:48px;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+#tombstone {
+    font-family:'UnifrakturCook';
+    font-size:48px;
+    margin-bottom:2em;
 }
