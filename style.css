@@ -28,6 +28,10 @@ p {
     text-align:center;
 }
 
+p span.icon {
+    vertical-align:top;
+}
+
 img {
     display:block;
     margin:auto;
