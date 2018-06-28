@@ -36,6 +36,10 @@ img {
     margin-bottom:2em;
 }
 
+span.icon {
+    margin-right: 0.4em;
+}
+
 #halmos {
     font-family:'UnifrakturCook';
     font-size:48px;
