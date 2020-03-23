@@ -1,12 +1,18 @@
+html,body {
+    background-color: #181a1b;
+    color: #eee;
+    font-size: 4vw;
+}
+
 a {
     text-decoration:none;
+    color: #3391ff;
 }
 
 body {
     margin: auto;
     text-align: center;
     font-family: Baskerville;
-    font-size: 1.2em;
 }
 
 h1 {
@@ -24,4 +30,5 @@ img {
 
 p {
     padding: 1em;
+    color: #ddc;
 }
