@@ -8,16 +8,6 @@ html,body {
     color: #eee;
 }
 
-a {
-    text-decoration:none;
-    color: #3391ff;
-    color: magenta;
-}
-
-a:hover, a:visited {
-    color: yellow;
-}
-
 body {
     margin: auto;
     text-align: center;
@@ -37,13 +27,22 @@ h2 {
     font-size: 3em; 
 }
 
-img {
-    max-width: 100%;
-    padding-top: 1em;
-    padding-bottom: 2em;
+a {
+    text-decoration:none;
+    color: #3391ff;
+    color: magenta;
+}
+
+a:hover, a:visited {
+    color: yellow;
 }
 
 p {
     padding: 0 2em;
     color: #ddc;
+}
+
+img {
+    max-width: 100%;
+    margin: 1em 0;
 }
