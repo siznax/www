@@ -10,12 +10,21 @@ html,body {
 a {
     text-decoration:none;
     color: #3391ff;
+    color: magenta;
+}
+
+a:hover, a:visited {
+    color: yellow;
 }
 
 body {
     margin: auto;
     text-align: center;
     font-family: Baskerville;
+}
+
+h1, h2 {
+    color: #ddd;
 }
 
 h1 {
@@ -30,6 +39,8 @@ h2 {
 
 img {
     max-width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 p {
