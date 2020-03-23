@@ -1,47 +1,27 @@
-html {
-    margin:0;
-    padding:0;
-}
-
-body {
-    margin:auto;
-    padding:32px;
-    width:600px;
-    font-size:1.4em;
-    background:beige;
-    font-family:Baskerville;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    text-align:center;
-}
-
-h1, h2 {
-    font-family:'UnifrakturCook', cursive;
-    font-size:4em;
-}
-
 a {
     text-decoration:none;
 }
 
-p {
-    text-align:center;
+body {
+    margin: auto;
+    text-align: center;
+    font-family: Baskerville;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 6em; 
+}
+h2 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3em; 
 }
 
 img {
-    display:block;
-    margin:auto;
-    margin-top:2em;
-    margin-bottom:2em;
+    max-width: 100%;
 }
 
-span.icon {
-    margin-right: 0.4em;
-}
-
-#halmos {
-    font-family:'UnifrakturCook';
-    font-size:48px;
-    margin-bottom:2em;
+p {
+    padding: 1em;
 }
