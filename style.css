@@ -1,0 +1,33 @@
+/** LAYOUT **/
+
+html { 
+    font-family: 'Lucida Grande',Verdana,Geneva,Helvetica,Arial,sans-serif;
+    font-size: calc(1em + 1vw);
+    font-weight: 100;
+    font-style: thin;
+}
+body {
+    margin: auto;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 { font-family: 'UnifrakturCook', cursive; }
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+p { padding: 0 2em; }
+a { text-decoration: none; }
+img {
+    margin: 0;
+    margin-top: 1em;
+    max-width: 85%;
+}
+
+/** COLOR **/
+
+html,body {
+    background-color: #181a1b;
+    color: #eee;
+}
+h1, h2, h3 { color: dimgray; }
+p { color: #ddc; }
+a { color: magenta; }
+a:hover, a:visited { color: yellow; }
