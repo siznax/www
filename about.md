@@ -1,26 +1,26 @@
 How this site was created:
 
  1. Create a static site (no sales, forms, databases, etc.)
- 1. Purchase a domain name/mail boxes from gandi.net
+ 1. Purchase a domain name/mail boxes from Gandi
  1. Upload static HTML, CSS, JavaScript to GitHub
- 1. Upload large/heavy files to the Internet Archive
- 1. Configure DNS records and GitHub Pages site to work together
+ 1. Upload big media files to the Internet Archive
+ 1. Configure DNS and GitHub Pages to work together
 
 Services exploited:
 
  * Gandi handles name servers for a small fee
  * GitHub accepts traffic to your site with proper DNS settings
- * GitHub pages serves static files from your domain name for free
- * Internet Archive serves large/media files for free (forever)
+ * GitHub Pages serves static files from your domain name for free
+ * Internet Archive serves big files for free (forever)
 
 Advantages:
 
  * Analytics: analytics.google.com if you must
+ * Backup and revision history: $0
  * Domain + email cost: $0-20 per year
  * Fast, durable servers: $0
+ * High availability: $0
  * Hosting cost: $0
- * Load balancing: $0
- * Site backup and revision history: $0
 
 
 ----
@@ -78,8 +78,8 @@ $ dig +noall +answer siznax.net
 ```
 
 
-Upload your source code to GitHub
----------------------------------
+Upload your source code to GitHub Pages
+---------------------------------------
 
 See https://pages.github.com/
 
@@ -100,8 +100,8 @@ Make your GitHub site and Domain registrar work together
    https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site
 
 
-Optionally enable HTTPS on your GitHub site
--------------------------------------------
+Optionally enable HTTPS
+-----------------------
 
 This is optional but can help protect your visitors from "spying for
 free at all times" if you do _not_ also use Google Analytics (which
@@ -120,8 +120,8 @@ See also:
 1. https://help.github.com/articles/troubleshooting-custom-domains/
 
 
-Upload/serve large files to/from the Internet Archive
------------------------------------------------------
+Upload/serve big files to/from the Internet Archive
+---------------------------------------------------
 
 * Create an archive.org account at https://archive.org/account/signup
 * Create a new "item" and upload your files. You can upload directly
