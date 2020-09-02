@@ -104,8 +104,9 @@ Optionally enable HTTPS on your GitHub site
 -------------------------------------------
 
 This is optional but can help protect your visitors from "spying for
-free" if you do not also use Google Analytics (which also offers
-spying for free).
+free at all times" if you do _not_ also use Google Analytics (which
+offers spying for free at all times). See
+https://observer.com/2011/12/in-which-eben-moglen-like-legit-yells-at-me-for-being-on-facebook-2/
 
 At first, the option to "Enforce HTTPS" on my site settings in GitHub
 was not available because I had more than one subdomain (other than
