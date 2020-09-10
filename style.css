@@ -1,6 +1,6 @@
 html {
     font-size: 14pt;
-    background-color: rgba(248,248,255,0);
+    background-color: rgba(255,255,240,0);
 }
 
 body {
@@ -16,15 +16,22 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 0;
 }
 
+h5 {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
 p,ul {
     margin-top: 0;
     padding-top: 0;
 }
 
-p#travels {
+ul {
+    padding-left: 1em;
+}
+
+div#travels {
     line-height: 1.4em;
-    margin-left: 1.2em;
-    margin-right: 1.2em;
 }
 
 p.quote {
@@ -33,7 +40,6 @@ p.quote {
     margin-top: 3em;
     margin-bottom: 3em;
     font-size: 1.4em;
-    /* font-style: italic; */
     font-variant: small-caps;
 }
 
@@ -41,10 +47,12 @@ p.quote a {
     color: rgba(0,0,0,0.1);
 }
 
-p.floralheart {
+p.halmos {
     text-align: center;
     font-weight: bold;
     font-size: 1.6em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 a {
@@ -59,34 +67,7 @@ a.highlight {
     color: orange;
 }
 
-/* ---------------------------------------------------------------- */
-
-ul {
-    list-style-type: none;
-}
-
-li::before {
-    margin-left: -16pt;
-    margin-right: 6pt;
-    padding-left: 0;
-    content: "»";
-    color: inherit;
-    font-size: 0.8em;
-}
-
-li.hot::before {
-    margin-left: -18pt;
-    margin-right: 0pt;
-    padding-left: 0;
-    content: "\1F525";
-    color: inherit;
-    font-size: 0.8em;
-}
-
-/* ---------------------------------------------------------------- */
-
 span.symbol {
     font-family: fangsong, sans-serif;
     font-size: 0.75em;
 }
-
