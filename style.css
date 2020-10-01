@@ -1,24 +1,16 @@
 html {
-    font-size: 14pt;
-    background-image: linear-gradient(#ffe, #cfe);
+    background-color: beige;
 }
 
 body {
     margin: auto;
     padding: 1em;
-    width: 640px;
-    max-width: 85%;
 }
 
 h1,h2,h3,h4,h5,h6 {
     margin-top: 28pt;
     margin-bottom: 12pt;
     padding-bottom: 0;
-}
-
-h5 {
-    font-size: 14pt;
-    font-weight: normal;
 }
 
 p,ul {
@@ -32,19 +24,6 @@ ul {
 
 div#travels {
     line-height: 1.4em;
-}
-
-p.quote {
-    text-align: center;
-    color: rgba(0,0,0,0.2);
-    margin-top: 3em;
-    margin-bottom: 3em;
-    font-size: 1.4em;
-    font-variant: small-caps;
-}
-
-p.quote a {
-    color: rgba(0,0,0,0.1);
 }
 
 p.halmos {
@@ -61,13 +40,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-a.highlight {
-    color: orange;
-}
-
-span.symbol {
-    font-family: fangsong, sans-serif;
-    font-size: 0.75em;
 }
