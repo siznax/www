@@ -45,8 +45,10 @@ body {
     /* Removes default 8px browser spacing */
     margin: 0;
 
-    margin: auto;
+    max-width: 80%;
 
+    margin: auto;
+    
     /* background: #A1FFCE;  /\* fallback for old browsers *\/ */
     /* background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /\* Chrome 10-25, Safari 5.1-6 *\/ */
     /* background: linear-gradient(to right, #FAFFD1, #A1FFCE); /\* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *\/ */
@@ -69,4 +71,10 @@ p.halmos {
 
 img#avatar {
     margin-top: 2em;
+}
+
+ul.no-indent {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
 }
