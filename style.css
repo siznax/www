@@ -78,3 +78,11 @@ ul.no-indent {
   margin-left: 0;
   list-style-position: inside;
 }
+
+div#travels a:nth-child(n+2) {
+    margin-left: 0.4em;
+}
+
+h1 {
+    font-size: 200%;
+}
