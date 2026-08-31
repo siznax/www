@@ -1,10 +1,57 @@
-html {
-    background-color: beige;
+/** NOTO EMOJI **/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&family=Sniglet:wght@400;800&display=swap');
+
+.noto-emoji-font {
+    font-family: "Noto Emoji", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/** SNIGLET **/
+
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+
+.sniglet-regular {
+    font-family: "Sniglet", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sniglet-extrabold {
+    font-family: "Sniglet", system-ui;
+    font-weight: 800;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    /* Prevents padding/borders from causing layout breakages */
+    box-sizing: border-box;
 }
 
 body {
-    padding: 1em;
-    padding-left: 2em;
+
+    /* Use the full viewport height */
+    min-height: 100vh;
+
+    /* Better for mobile: accounts for dynamic address bars */
+    min-height: 100dvh;
+
+    /* Removes default 8px browser spacing */
+    margin: 0;
+
+    margin: auto;
+
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: charcoal;
 }
 
 a {
@@ -15,4 +62,8 @@ p.halmos {
     font-weight: bold;
     font-size: 1.6em;
     margin-bottom: 2em;
+}
+
+img#avatar {
+    margin-top: 2em;
 }
