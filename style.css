@@ -49,12 +49,8 @@ body {
 
     margin: auto;
     
-    /* background: #A1FFCE;  /\* fallback for old browsers *\/ */
-    /* background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /\* Chrome 10-25, Safari 5.1-6 *\/ */
-    /* background: linear-gradient(to right, #FAFFD1, #A1FFCE); /\* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *\/ */
-
     /* https://grabient.com/_gQxgJrgI8f-cgENf8Gf3_f5vf1hgBDf-wgBu?style=linearGradient&steps=3&angle=45 */
-    background: linear-gradient(45deg, #fada61 0.000%, #ff9188 50.000%, #ff5acd 100.000%);
+    background: linear-gradient(135deg, #fada61 0.000%, #ff9188 50.000%, #ff5acd 100.000%);
 
     color: charcoal;
 }
